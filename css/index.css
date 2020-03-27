@@ -1,0 +1,33 @@
+.main-wrapper {
+    width: 1280px;
+    height: 360px;
+    margin: 16px auto;
+    background-color: aquamarine;
+}
+
+.small-pic-wrapper {
+    width: 50%;
+    height: 100%;
+    background-image: url(../pic/source_pictur.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    float: left;
+}
+
+.select-pic-wrapper {
+    width: 50%;
+    height: 50%;
+    background-color: skyblue;
+    opacity: 0.6;
+    position: absoulte;
+    display: none;
+}
+
+.large-pic-wrapper {
+    width: 50%;
+    height: 100%;
+    background-image: url(../pic/source_pictur.jpg);
+    background-size: 200% 200%;
+    float: left;
+    display: none;
+}
