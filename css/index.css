@@ -1,8 +1,11 @@
+body {
+    min-width: 1280px;
+}
+
 .main-wrapper {
     width: 1280px;
     height: 360px;
     margin: 16px auto;
-    background-color: aquamarine;
 }
 
 .small-pic-wrapper {
@@ -15,12 +18,12 @@
 }
 
 .select-pic-wrapper {
+    display: none;
     width: 50%;
     height: 50%;
     background-color: skyblue;
     opacity: 0.6;
-    position: absoulte;
-    display: none;
+    position: absolute;
 }
 
 .large-pic-wrapper {
